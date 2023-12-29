@@ -6,4 +6,5 @@ module.exports = {
   tabWidth: 2, // スペースの単位
   trailingComma: 'all', // ケツカンマつける
   jsxSingleQuote: true, //　JSXでシングルクォートを使用
+  plugins: [require('prettier-plugin-tailwindcss')],
 }
